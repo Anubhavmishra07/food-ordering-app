@@ -20,7 +20,7 @@ class UserClass extends React.Component {
   }
 
   async componentDidMount() {
-    const data = await fetch("https://api.github.com/users/Khemchand7");
+    const data = await fetch("https://api.github.com/users/anubhavmishra07");
     const json = await data.json();
     console.log(json);
     this.setState({ userInfo: json });
@@ -57,7 +57,7 @@ class UserClass extends React.Component {
         {/* <img src="https://avatars.githubusercontent.com/u/124715350?v=4"></img> */}
         <h2>Name:{name}</h2>
         <h3>location: {location}</h3>
-        <h4>Contact: khemchandk360@gmail.com</h4>
+        <h4>Contact: anubhavmishra9920@gmail.com</h4>
       </div>
     );
   }
